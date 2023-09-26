@@ -1,0 +1,132 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:  Helvetica;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+}
+.main-left{
+    height:100%;
+    width: 25%;
+    background-color:rgb(17, 26, 32);
+}
+.main-right{
+    height: 100%;
+    width: 50%;
+    background-color: white;
+    
+  
+}
+#pic-box{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: white;
+    margin:40px;
+    background-image: url(img/ahsan.jpg);
+    background-size: cover;
+}
+.contact-style{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    line-height: 22px;
+}
+#contact-id{
+    margin: 40px 50px 20px 50px;
+}
+.line{
+    border: 1px solid white;
+    width: 280px;
+}
+#phone h4{
+    font-size: 18px;
+}
+#phone p{
+    font-size: 15px;
+}
+
+#email{
+    margin-top: 5px;
+}
+#email  h4{
+    font-size: 20px;
+}
+#email  p{
+    font-size: 15px;
+}
+#address{
+    margin-top: 5px;
+}
+#address h4{
+    font-size: 20px;
+}
+#address p{
+    font-size: 15px;
+}
+#expertise-id{
+    margin: 20px 50px 20px 50px;
+}
+#expertise-id ul{
+    margin-left: 15px;
+    font-size: 15px;
+}
+
+#hobbies-id{
+    margin: 20px 50px 25px 50px;
+
+}
+#hobbies-id p{
+    font-size: 15px;
+}
+/* right side  */
+#intro{
+    margin-top: 100px;
+    margin-left:20px;
+    margin-bottom: 20px;
+    font-size: 25px;
+
+}
+#intro p{
+font-size: 15px;
+text-align: justify;
+}
+#education{
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+
+.line-right{
+    width: 600px;
+    border: 1px solid black;
+}
+#experience{
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#language-id{
+    margin-left: 20px;
+    margin-bottom: 20px;
+
+    
+}
+#language-id p{
+    font-size: 15px;  
+}
+#objective-id{
+    margin-left: 20px;
+    margin-bottom: 45px;
+
+}
+#language-id p{
+    font-size: 15px;  
+}
+
+
+
